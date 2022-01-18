@@ -3,10 +3,10 @@ import s from './Header.modules.css';
 
 const Header = (props) => {
     return(
-<div className="header">
-    <div className="headerLocation">
+<div className={s.header}>
+    <div className={s.headerLocation}>
         <h1>Ипотечный калькулятор</h1>
-        <span className="region">в Москве</span>
+        <span className={s.region}>в Москве</span>
     </div>
 </div>
     )

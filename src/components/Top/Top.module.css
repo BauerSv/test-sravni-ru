@@ -1,0 +1,14 @@
+.top {
+    min-height: 400px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.calculatorContainer {
+    padding: 0 30px;
+    margin: 0 100px;
+    height: 144px;
+}

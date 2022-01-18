@@ -3,9 +3,9 @@ import s from './Filters.modules.css';
 
 const Filters = (props) => {
     return(
-<div className="filters">
-    <div className="rowCalculate">
-        <div className="filter">
+<div className={s.filters}>
+    <div className={s.rowCalculate}>
+        <div className={s.filter}>
             <select>
                 <option>Любая</option>
                 <option>Рефинансирование</option>
@@ -18,13 +18,13 @@ const Filters = (props) => {
                 <option>Машиноместо/Гараж</option>
             </select>
         </div>
-        <div className="filter"></div>
-        <div className="filter"></div>
-        <div className="filter"></div>
-        <div className="filter"></div>
-        <div className="filter"></div>
+        <div className={s.filter}></div>
+        <div className={s.filter}></div>
+        <div className={s.filter}></div>
+        <div className={s.filter}></div>
+        <div className={s.filter}></div>
     </div>
 </div>
     )
-    }
+}
         export default Filters;

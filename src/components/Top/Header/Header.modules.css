@@ -1,0 +1,27 @@
+.header {
+    margin-bottom: 30px;
+}
+
+.headerLocation {
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    font-family: Ubuntu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1 {
+    display: inline;
+    font-weight: bold;
+    margin: 0.67em 0;
+    color: #3c3e44;
+    font-size: inherit;
+}
+
+.region {
+    color: rgb(0, 175, 255);
+    font-weight: bold;
+    font-family: Ubuntu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    border-bottom: 1px solid;
+}
