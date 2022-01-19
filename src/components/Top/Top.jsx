@@ -7,8 +7,8 @@ const Top = (props) => {
     return(
     <div className={s.top}>
         <div className={s.calculatorContainer}>
-            <Header/>
-            <Filters/>
+            <Header />
+            <Filters />
             </div>
         </div>
     )

@@ -1,0 +1,19 @@
+.sort {
+    display: flex;
+    padding: 15px 30px;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 4px 4px 0 0;
+    background: white;
+    border: 1px solid #dddede;
+    border-bottom: none;
+}
+
+.sortElements {
+    display: flex;
+    align-items: center;
+}
+
+.sortElements div {
+    margin: 0 10px;
+}

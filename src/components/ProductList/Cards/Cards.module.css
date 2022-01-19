@@ -1,0 +1,70 @@
+.cards {
+    box-sizing: inherit;
+}
+
+.cardsWrapper {
+    border-top: 1px solid #dddede;
+}
+
+.row {
+    position: relative;
+    display: flex;
+    min-height: 120px;
+    overflow: hidden;
+    background: white;
+    border-bottom: 1px solid #dddede;
+}
+
+img {
+    max-width: 125px;
+    max-height: 36px;
+    min-width: 100px;
+}
+
+.column {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+.percent {
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+.sum {
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+.column div {
+    margin-bottom: 6px;
+    width: 100%;
+}
+
+.column div button {
+    background-color: rgb(13, 209, 73);
+    border: 1px solid rgb(13, 209, 73);
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    height: 34px;
+    width: 100%;
+}
+
+.column:last-child {
+    text-align: center;
+}
