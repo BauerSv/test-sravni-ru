@@ -6,8 +6,8 @@ import Cards from './Cards/Cards';
 const ProductList = (props) => {
     return (
         <div className={s.productList}>
-            <Sort />
-            <Cards />
+            <Sort/>
+            <Cards/>
         </div>
     )
 }

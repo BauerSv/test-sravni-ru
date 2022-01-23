@@ -4,10 +4,10 @@ import Top from './Top/Top';
 import ProductList from "./ProductList/ProductList";
 
 const Content = (props) => {
-    return(
+    return (
         <div className={s.content}>
-            <Top />
-            <ProductList />
+            <Top/>
+            <ProductList/>
         </div>
     )
 }

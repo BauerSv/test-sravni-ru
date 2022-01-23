@@ -68,3 +68,12 @@ img {
 .column:last-child {
     text-align: center;
 }
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.activeLink {
+    color: gold;
+}
