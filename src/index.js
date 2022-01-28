@@ -3,13 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Content from './components/Content'
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import ProductCards from './components/productCards/ProductCards'
+import ProductCards from './components/productCards/ProductCards';
+import Data from './Data';
+
+const dataCards = Data.data;
 
 ReactDOM.render(
     <React.StrictMode>
         <BrowserRouter>
             <Routes>
-                <Route path="/ipoteka" element={<Content />} />
+                <Route path="/ipoteka" element={<Content data={dataCards}/>} />
                 <Route path='/ipoteka/card/' element={<ProductCards />}/>
             </Routes>
         </BrowserRouter>

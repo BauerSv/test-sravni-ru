@@ -8,7 +8,7 @@ const ProductList = (props) => {
         <div className={s.productList}>
             <div className={s.wrapper}>
                 <Sort/>
-                <Cards/>
+                <Cards data={props.data}/>
             </div>
         </div>
     )

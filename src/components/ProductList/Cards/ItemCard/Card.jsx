@@ -14,13 +14,13 @@ const Card = (props) => {
             <div className={s.subtitle}>{props.name}</div>
         </div>
         <div className={s.column}>
-            <div className={s.sum}>{props.sumFrom} ₽ - {props.sumTo} ₽</div>
+            <div className={s.sum}>{props.sumFrom} {props.sumTo} </div>
             <div>{props.initialAmount}</div>
         </div>
         <div className={s.column}>
-            <div>Возраст от 21 года</div>
-            <div>Стаж от 3 месяцев</div>
-            <div>5 документов</div>
+            <div>{props.age}</div>
+            <div>{props.lastExperience}</div>
+            <div>{props.documents}</div>
         </div>
         <div className={s.column}>
             <div>{props.license}</div>

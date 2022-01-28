@@ -7,7 +7,7 @@ const Content = (props) => {
     return (
         <div className={s.content}>
             <Top/>
-            <ProductList/>
+            <ProductList data={props.data}/>
         </div>
     )
 }
