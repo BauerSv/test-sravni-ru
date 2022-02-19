@@ -6,8 +6,8 @@ const Sort = (props) => {
         <div className={s.sort}>
             <div>Сортировать:</div>
             <div className={s.sortElements}>
-                <div>по ставке</div>
-                <div>по сумме</div>
+                <div onClick={props.isSortOn}>по ставке</div>
+                <div onClick={props.isSortOnSum}>по сумме</div>
             </div>
         </div>
     )

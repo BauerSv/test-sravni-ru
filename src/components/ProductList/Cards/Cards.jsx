@@ -1,9 +1,21 @@
 import React from 'react';
 import s from './Cards.module.css';
 import Card from "./ItemCard/Card";
+import {byRate, bySum} from "../../SortState";
 
-const Cards  = (props) => {
-    let itemCards = props.data.map(item => {
+const Cards = (props) => {
+    function data()  {
+        let state = props.data;
+        if(props.sortRate) {
+            state = Array.from(props.data).sort(byRate(state));
+        }
+        else if(props.sortSum) {
+            state = Array.from(props.data).sort(bySum(state));
+        }
+
+        return state;
+    }
+    let itemCards = data().map(item => {
         return <Card name={item.name} license={item.organization.license}
                      sumFrom={`${item.rate.creditAmount.from} ${'₽'}`}
                      sumTo={(item.rate.creditAmount.to ? `${'-'} ${item.rate.creditAmount.to} ${'₽'}` : '')}

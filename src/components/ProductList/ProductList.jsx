@@ -7,8 +7,8 @@ const ProductList = (props) => {
     return (
         <div className={s.productList}>
             <div className={s.wrapper}>
-                <Sort/>
-                <Cards data={props.data}/>
+                <Sort isSortOn={props.isSortOn} isSortOnSum={props.isSortOnSum} />
+                <Cards data={props.data} sortRate={props.sortRate} sortSum={props.sortSum} />
             </div>
         </div>
     )
